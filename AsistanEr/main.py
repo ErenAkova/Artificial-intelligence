@@ -39,8 +39,6 @@ def response(voice):
         selection = ["merhaba, nasılsınız? gayet iyi görünüyorsunuz. yapmamı istediğiniz birşey var mı ?: ", "Bugün yapılacak işler çok sanırım ?: ", "Ben Jarvis efendim, benden ne istersiniz? :"]
         selection = random.choice(selection)
         speak(selection)
-    if "büşra" in voice:
-        speak("Seviliyorsun he. Hallere bak")
     if "teşekkür ederim" in voice or "teşekkürler" in voice or "güzel yardım" in voice:
         speak("her zaman")
     if "sistemi kapat" in voice or "biraz dinlen" in voice or "görüşürüz ama bir yere kaybolma" in voice:
